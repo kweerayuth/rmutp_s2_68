@@ -24,6 +24,7 @@
     "hono": "^4.9.2"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "tsc && node dist/server.js"
   }
 }
