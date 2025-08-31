@@ -25,6 +25,6 @@
   },
   "scripts": {
     "build": "tsc",
-    "dev": "tsc && node dist/server.js"
+    "dev": "npm run build && node dist/server.js"
   }
 }
